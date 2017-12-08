@@ -13,5 +13,11 @@ namespace SliverFernApp
         {
             InitializeComponent();
         }
+
+        private void Camera_OnClicked(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

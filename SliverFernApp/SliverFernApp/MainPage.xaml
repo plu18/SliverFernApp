@@ -5,9 +5,7 @@
              x:Class="SliverFernApp.MainPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Clicked="Camera_OnClicked" Text="Camera"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
